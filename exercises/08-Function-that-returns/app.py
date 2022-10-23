@@ -5,3 +5,8 @@ def euro_to_yen(euro_value):
 	return euro_value * 124.15
 
 ####### ↓ YOUR CODE BELOW ↓ #######
+
+dollar_eu = dollar_to_euro(137)
+euro_yen = euro_to_yen(dollar_eu)
+
+print(euro_yen)
